@@ -66,3 +66,48 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+
+
+
+
+{
+  "workbench.colorTheme": "Omni",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 2,
+  "terminal.integrated.fontSize": 14,
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "editor.parameterHints.enabled": false,
+  "breadcrumbs.enabled": true,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.formatOnSave": true,
+  "emmet.triggerExpansionOnTab": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.compactFolders": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true },
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.eol": "\n",
+  "NugetGallery.sources": [
+    "{\"name\": \"nuget.org\",\"url\": \"https://api.nuget.org/v3/index.json\"}",
+    "{​​\"name\": \"AtpDev\", \"url\": \"https://pkgs.dev.azure.com/bjssatp/_packaging/atp-dev%40Local/nuget/v3/index.json\"}​​"
+  ]
+}
